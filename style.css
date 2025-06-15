@@ -1,0 +1,232 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f6f8;
+}
+header {
+  background-color: #5e1229;
+  color: white;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  position: sticky;
+  z-index: 1000;
+  top:0;
+}
+header h1 {
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+nav{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 20px;
+    transition: color 0.4s ease;
+}
+nav a:hover{
+    color:rgb(231, 182, 58);
+}
+.intro {
+    background: linear-gradient(to bottom, #5e1229, #d33c5a);
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.intro h2 {
+    margin-bottom: 15px;
+    font-size: 50px;
+}
+
+.intro p {
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+.intro .btn {
+    padding: 12px 24px;
+    background-color: white;
+    color:#5e1229;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+}
+.new-course-banner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #eaf4ff;
+    padding: 40px 20px;
+    gap: 30px;
+}
+
+.new-course-banner img {
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.1);
+}
+
+.banner-text {
+    max-width: 500px;
+    text-align: left;
+}
+
+.banner-text h2 {
+    font-size: 2rem;
+    color:#5e1229;
+    margin-bottom: 10px;
+}
+
+.banner-text p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.banner-text .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color:#5e1229;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.courses{
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+.courses h2{
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: #5e1229;
+}
+.course-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.course-item{
+    background-color: #f9f9f9;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    text-align: left;
+}
+.course-item:hover{
+    transform: translateY(-20px);
+}
+.course-item img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.course-item h3{
+    padding: 15px 15px 5px;
+    font-size: 17px;
+    color: #333;
+}
+.course-item p{
+    padding: 0 15px 15px;
+    color: #666;
+    font-size: 15px;
+}
+.course-item .btn{
+    margin: 0 15px 15px;
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #5e1229;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+.course-item .btn:hover{
+    background-color: #922541;
+}
+.show-all-btn {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.show-all-btn .btn {
+    padding: 12px 24px;
+    background-color:#310b16;
+    color: white;
+    font-size: 1rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.show-all-btn .btn:hover {
+    background-color: #922541;
+}
+.about {
+    background-color: #f4f6f8;
+    padding: 60px 30px;
+    text-align: center;
+    color: #333;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.about-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #5e1229;
+}
+
+.about-content p {
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 19.2px;
+  margin-top: 48px;
+}
+.intro-video {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.intro-video iframe,.intro-video video {
+    border-radius: 30px;
+    max-width: 100%;
+    box-shadow: 0 0 4px 16px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
