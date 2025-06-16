@@ -12,7 +12,7 @@ MENTOR : NEELA SANTOSH
 
 # Task description:
 
-For the completion of this task, I used Visual Studio Code as the development environment. The goal was to create an E-learning Platform where users can explore courses, enroll in them, and track their learning progress. This project makes use of HTML, CSS, and JavaScript and focuses on concepts like event handling and localStorage.
+For the completion of this task, I used Visual Studio Code as the development environment. The goal was to create an E-learning Platform where users can explore courses, enroll in them, and track their learning progress. This project makes use of HTML, CSS, and JavaScript and focuses on concepts like event handling and localStorage. This platform is name learnity which means (learn+infinity) infinite learning
 The platform begins with a visually appealing homepage that contains a navigation bar linking to other sections like Home, Courses, About, and My Courses. The header is styled to be responsive and remains fixed at the top for better navigation. A small video is also embedded to make it responsive and visually appealing to the user. Thereafter, a small section showsasing an upcoming course is shown with a register now button.
 
 The main section, titled "Explore Our Courses", displays a variety of course cards such as Web Development, Python Programming, Java, UI/UX, Cybersecurity, AI, Data Science, and many more.
@@ -31,7 +31,7 @@ Overall, this task simulates a mini learning dashboard and can be expanded with 
 ![Screenshot 2025-06-15 224943](https://github.com/user-attachments/assets/6b5f72c3-2f9e-40f4-bfd3-72e08508e25a)
 ![Screenshot 2025-06-15 225012](https://github.com/user-attachments/assets/6bf73642-fe4c-4846-8c24-4cc74a65c81a)
 ![Screenshot 2025-06-15 225028](https://github.com/user-attachments/assets/23ea08e1-5a10-4caf-9972-302e8e53e769)
-![Screenshot 2025-06-15 225041](https://github.com/user-attachments/assets/aeec906a-2d8c-454e-a1a4-e95d435a4aa4)
+![Screenshot 2025-06-16 120457](https://github.com/user-attachments/assets/c77e196e-5abe-4460-a695-85e2d7170eac)
 ![Screenshot 2025-06-15 225108](https://github.com/user-attachments/assets/4eb96347-2b1a-421a-aedd-60e7425477e5)
 ![Screenshot 2025-06-15 225122](https://github.com/user-attachments/assets/6aa3d7c1-2302-4a00-bba5-d329fee32263)
 ![Screenshot 2025-06-15 225138](https://github.com/user-attachments/assets/f07f0761-18d8-4148-a4c6-3b389d5f2621)
